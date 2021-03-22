@@ -53,3 +53,11 @@ render(){
 ## Styling
 
 We've imported the Semantic library to keep your piggies looking pretty. To keep your hogs in columns, make sure their parent container has the class "ui grid container". The children in the columns should have class "ui eight wide column". (Semantic uses a grid with a default of 16 units wide, so 8-wide will make two columns and 4-wide will make 4 columns.) Semantic will take care of assigning the columns for you. You can also try implementing [Semantic Cards](https://semantic-ui.com/views/card.html) for each hog.
+
+
+Components:::
+- hogTitle (props/child/functional)
+- hogContainer (state/parent/container)
+- showCaseOneHogTitle
+
+-- sorting function state/callback 
